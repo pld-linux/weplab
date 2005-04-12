@@ -8,6 +8,8 @@ Group:		Networking
 Source0:	http://dl.sourceforge.net/weplab/%{name}-%{version}.tar.gz
 # Source0-md5:	72531c9eec8dc716c87326fc2aa9a0f5
 URL:		http://weplab.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
