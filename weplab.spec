@@ -1,7 +1,8 @@
 Summary:	WepLab, analyzing WEP encryption security on wireless networks
+Summary(pl):	WepLab, analizator szyfrowania WEP w sieciach bezprzewodowych
 Name:		weplab
 Version:	0.1.4
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Networking
 Source0:	http://dl.sourceforge.net/weplab/%{name}-%{version}.tar.gz
