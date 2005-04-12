@@ -7,6 +7,7 @@ Group:		Networking
 Source0:	http://dl.sourceforge.net/weplab/%{name}-%{version}.tar.gz
 # Source0-md5:	72531c9eec8dc716c87326fc2aa9a0f5
 URL:		http://weplab.sourceforge.net/
+BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,6 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README AUTHORS NEWS
+%doc ChangeLog README AUTHORS
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
