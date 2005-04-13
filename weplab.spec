@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/weplab/%{name}-%{version}.tar.gz
 URL:		http://weplab.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libpcap-devel
+BuildRequires:	libpcap-devel >= 2:0.8.1-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
