@@ -1,5 +1,5 @@
 Summary:	WepLab, analyzing WEP encryption security on wireless networks
-Summary(pl):	WepLab, analizator szyfrowania WEP w sieciach bezprzewodowych
+Summary(pl):	WepLab - analizator szyfrowania WEP w sieciach bezprzewodowych
 Name:		weplab
 Version:	0.1.4
 Release:	1
@@ -19,9 +19,9 @@ vulnerabilities it has, and how they can be used in practice to break
 a WEP protected wireless network.
 
 %description -l pl
-WepLab to narzêdzie do uczenia siê jak dzia³a WEP, jakie ma s³abo¶ci i
-jak mog± byæ one wyko¿ystane by z³amaæ WEP'a w sieciach
-bezprzewodowych.
+WepLab to narzêdzie do nauki jak dzia³a WEP, jakie ma s³abo¶ci i
+jak mog± byæ one wykorzystane do z³amania sieci bezprzewodowej
+zabezpieczonej przez WEP.
 
 %prep
 %setup -q
@@ -37,7 +37,7 @@ bezprzewodowych.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-prefix=%{_prefix} \
+	prefix=%{_prefix} \
         DESTDIR=$RPM_BUILD_ROOT
 
 %clean
