@@ -1,5 +1,5 @@
 Summary:	WepLab, analyzing WEP encryption security on wireless networks
-Summary(pl.UTF-8):   WepLab - analizator szyfrowania WEP w sieciach bezprzewodowych
+Summary(pl.UTF-8):	WepLab - analizator szyfrowania WEP w sieciach bezprzewodowych
 Name:		weplab
 Version:	0.1.5
 Release:	1
